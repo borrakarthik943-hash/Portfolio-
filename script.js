@@ -1,0 +1,32 @@
+// Smooth scroll for button
+function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({
+        behavior: "smooth"
+    });
+}
+
+// Typing animation
+const text = ["Python Developer", "Web Developer", "Data Science Enthusiast"];
+let count = 0;
+let index = 0;
+let currentText = "";
+let letter = "";
+
+function type() {
+    if (count === text.length) {
+        count = 0;
+    }
+    currentText = text[count];
+    letter = currentText.slice(0, ++index);
+
+    document.getElementById("typing").textContent = letter;
+
+    if (letter.length === currentText.length) {
+        count++;
+        index = 0;
+    }
+
+    setTimeout(type, 150);
+}
+
+type();
