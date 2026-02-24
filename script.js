@@ -6,7 +6,7 @@ function scrollToSection(id) {
 }
 
 // Typing animation
-const text = ["Python Developer", "Web Developer", "Data Science Enthusiast"];
+const text = ["Python Developer", "Web Developer", ];
 let count = 0;
 let index = 0;
 let currentText = "";

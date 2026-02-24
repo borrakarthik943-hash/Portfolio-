@@ -62,7 +62,7 @@ button {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
-    background: #111;
+    background: #060405;
     color: white;
     cursor: pointer;
     transition: 0.3s;
@@ -82,15 +82,15 @@ button:hover {
 }
 
 .skill {
-    background: #00adb5;
-    color: white;
+    background: #89d0d3;
+    color: rgb(145, 91, 91);
     padding: 10px 20px;
     border-radius: 20px;
 }
 
 /* Projects */
 .project-card {
-    background: #f4f4f4;
+    background: #bd7777;
     margin: 20px auto;
     padding: 20px;
     width: 300px;
@@ -104,6 +104,6 @@ button:hover {
 
 /* Contact */
 .contact {
-    background: #111;
-    color: white;
+    background: #cf8181;
+    color: rgb(7, 7, 7);
 }
